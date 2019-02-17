@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <GLView
         style={{ flex: 1 }}
-        onContextCreate={ context => startGame({ context }) }
+        onContextCreate={context => startGame({ context })}
       />
     );
   }
@@ -42,7 +42,7 @@ function startGame({ context }) {
 
     update: function() {
       // console.log('update()');
-    },
+    }
   });
 
   game.state.start('Playable');

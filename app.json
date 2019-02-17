@@ -4,23 +4,18 @@
     "description": "This project is really great.",
     "slug": "expo-sdk-25-phaser",
     "privacy": "public",
-    "sdkVersion": "25.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
+      "backgroundColor": "#ffffff",
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "contain"
     },
     "packagerOpts": {
-      "assetExts": [
-        "json"
-      ]
+      "assetExts": ["json"]
     },
     "ios": {
       "supportsTablet": true

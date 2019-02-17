@@ -76,9 +76,7 @@ function startGame({ context }) {
       man.animations.play('run', 15, true);
     },
 
-    update: function() {
-
-    },
+    update: function() {}
   });
 
   game.state.start('Playable');
